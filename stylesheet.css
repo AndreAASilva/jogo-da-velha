@@ -1,0 +1,66 @@
+#dvjogo{
+    width:160px;
+    height:160px;
+    display:flex;
+    flex-wrap:wrap; /*flex-wrap vai informar que as três divs de 50px somando os 150px vão jogar as outras para baixo*/
+    align-content: flex-start;/*Inicia o alinhamento do início*/
+
+}
+
+.posJogo{
+    width:50px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    cursor:pointer;
+    display:flex;
+    
+}
+
+/*AJUSTANDO AS BORDAS DO JOGO*/
+
+#p1{
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+#p2{
+    border-left: 1px solid #000;
+    border-bottom:1px solid #000;
+    border-right:1px solid #000;
+}
+
+#p3{
+    border-left:1px solid #000;
+    border-bottom:1px solid #000;
+}
+#p4{
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+#p5{
+    border: 1px solid #000;
+}
+
+#p6{
+    border-top:1px solid #000;
+    border-left: 1px solid #000;
+    border-bottom:1px solid #000;
+}
+
+#p7{
+    border-top:1px solid #000;
+    border-right:1px solid #000;
+}
+
+#p8{
+    border-left: 1px solid #000;
+    border-top:1px solid #000;
+    border-right:1px solid #000;
+}
+
+#p9{
+    border-left:1px solid #000;
+    border-top:1px solid #000;
+}
